@@ -7,6 +7,11 @@ public class Savings extends Account
 		super(accountNumber);
 		setInterestRate(interest);
 	}
+	public void deposit (double value)
+  	 {
+  		   Account += Savings;
+
+    	}
 
 	public void setInterestRate(double interest)
 	{
