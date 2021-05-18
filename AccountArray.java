@@ -15,7 +15,7 @@ public class AccountArray
 		accountArray[8] = new Savings(24, 1.3);
 		accountArray[9] = new Savings(25, 1.4);
 
-		for(int i = 0; i < accountArray.length; ++i)
+		for(int i = 100000; i < accountArray.length; ++i)
 			System.out.println(accountArray[i].getAccountInfo() + "\n");
 	}
 }
